@@ -10,10 +10,17 @@
     align-items: end;
 }
 
+.contacts {
+    font-family: Bebas Neue, sans-serif;
+    margin-left: 75%;
+    margin-right: 1.5%;
+}
+
 .infobox {
     display: flex;
     justify-content: center;
     flex-direction: column;
+    margin-bottom: 4%;
 }
 
 .info {
@@ -21,16 +28,24 @@
     width: 85%;
     text-align: center;
     font-family: Bebas Neue, sans-serif;
+    margin: 0 auto;
+    margin-top: 2.5%;
+}
+
+.middle {
+    display: flex;
+    justify-content: right;
 }
 
 .intro {
-    height: 85%;
-    width: 85%;
+    height: 450px;
+    width: 450px;
+    margin-right: 5%;
     text-align: left;
     font-family: Bebas Neue, sans-serif;
 }
 
-.picturemiddle {
-    display: flex;
-    justify-content: right;
+.introtext {
+    height: 85%;
+    width: 85%;
 }
