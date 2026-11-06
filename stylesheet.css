@@ -3,3 +3,34 @@
     justify-content: center;
 }
 
+.footer {
+    display: flex;
+    justify-content: end;
+    text-align: end;
+    align-items: end;
+}
+
+.infobox {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.info {
+    height: 85%;
+    width: 85%;
+    text-align: center;
+    font-family: Bebas Neue, sans-serif;
+}
+
+.intro {
+    height: 85%;
+    width: 85%;
+    text-align: left;
+    font-family: Bebas Neue, sans-serif;
+}
+
+.picturemiddle {
+    display: flex;
+    justify-content: right;
+}
